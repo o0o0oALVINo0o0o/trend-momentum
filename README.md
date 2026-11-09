@@ -19,7 +19,7 @@ Setup: sign of the past N-day return (N ∈ {20, 60, 120}), long/short, daily re
 | Bootstrap lower bounds for N=60 (three dependence-aware bootstraps) | all negative, so indistinguishable from zero |
 | Out-of-sample mean net return per trade (N=60, 5,579 trades) | **−1.53%** (excess vs. random entry −1.73%) |
 | Out-of-sample portfolio ending equity | 0.67 |
-| Overall verdict | Qualification **UNKNOWN**; every evaluable condition **FAIL** |
+| Overall verdict | Qualification **UNKNOWN**; the performance conditions that could be evaluated (2, 3, 4, 5b) all **FAIL** |
 
 The UNKNOWN comes from one market-wide missing day (2026-10-28) on the data site, not from the strategy. **This does not show that momentum does not exist in crypto.** Not tested: other holding periods, cross-sectional ranking, volatility sizing, stops, long-only, BTC/ETH alone, intraday data. See `CLOSEOUT.md` §3.
 
@@ -86,7 +86,7 @@ sha256sum SPEC_v3_frozen.md SPEC.md results.txt
 | N=60 的 bootstrap 下界（三種考慮相依性的方法） | 皆為負，與零無法區分 |
 | 樣本外平均每筆淨報酬（N=60，5,579 筆） | **−1.53%**（相對隨機進場的超額 −1.73%） |
 | 樣本外組合期末權益 | 0.67 |
-| 總判定 | 合格 **UNKNOWN**；所有可評估條件 **FAIL** |
+| 總判定 | 合格 **UNKNOWN**；可評估的績效條件（2、3、4、5b）皆 **FAIL** |
 
 UNKNOWN 來自資料站 2026-10-28 全市場缺一天，不是策略本身的問題。**這不代表動能在加密市場不存在。** 沒測的有：其他持有期、橫斷面排序、波動率調整部位、止損、只做多、BTC／ETH 單獨、盤中資料；詳見 `CLOSEOUT.md` §3。
 
