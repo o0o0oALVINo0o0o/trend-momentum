@@ -1,0 +1,4 @@
+# 凍結規格與結果檔的 SHA-256 登記在 FREEZE.txt，換行不同雜湊就不同。
+# 強制所有文字檔在任何平台（含 core.autocrlf=true 的 Windows）checkout 後都是 LF。
+# Frozen spec and result files are hash-registered in FREEZE.txt; force LF on every platform.
+* text eol=lf
